@@ -1,0 +1,20 @@
+    head
+        title Login
+        meta(charset="UTF-8")
+    body
+        form(id="report", name="report", action="#{formAction}", method="get")
+            table
+                tr
+                    td.f1_label User name:
+                    td
+                        input(type="text" name="username" value="" )
+                tr
+                    td.f1_label Password:
+                    td
+                        input(type="password" name="password" value="" )
+
+                tr
+                    td
+                        input(type="submit" name="login" value="Log In" style="font-size:18px; ")
+
+
